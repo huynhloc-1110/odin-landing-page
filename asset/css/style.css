@@ -119,3 +119,33 @@ body {
   text-align: right;
   font-weight: bold;
 }
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.signup-container {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 80px;
+  border-radius: 10px;
+}
+
+.signup .btn-signup {
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
