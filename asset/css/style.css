@@ -60,8 +60,8 @@ body {
 }
 
 .info img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .btn-signup {
@@ -71,4 +71,23 @@ body {
   color: white;
   font-size: 18px;
   font-weight: bold;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.illust-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.illust {
+  width: 15%;
+  text-align: center;
 }
